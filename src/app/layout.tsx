@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"], variable:"--font-sans" });
 
 export const metadata: Metadata = {
   title: "Make It Ugly",
-  description: "Quick 'n Dirty Functions of Later Site",
+  description: "Quick 'n Dirty Functions of Later Site!",
 };
 
 export default function RootLayout({
