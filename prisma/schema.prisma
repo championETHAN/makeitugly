@@ -1,0 +1,82 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Venue{
+    id                    String                  @id @default(uuid())
+    name                  String
+    phoneNumber           String
+    location              String
+    imagePath1            String
+    imagePath2            String
+    imagePath3            String
+    imagePath4            String
+    description           String
+    createdAt             DateTime                  @default(now())
+    updateAt              DateTime                  @updatedAt
+    sundaysHours          String  
+    mondaysHours          String
+    tuesdaysHours         String
+    wednesdaysHours       String
+    thursdaysHours        String
+    fridaysHours          String
+    saturdaysHours        String
+    parkingOptions        String
+    websiteLink           String?
+    instagramLink         String?
+    facebookLink          String?
+    cost                  String
+    fullBar               String?                
+    beerWine              String?         
+    venuePurpose          String      
+
+}
+
+model Event{
+  id                    String        @id @default(uuid())
+  eventType             String
+  name                  String
+  description           String
+  cost                  String
+  location              String
+  duration              String
+  eventCapacity         String
+  eventRestrooms        String
+  imageEventPath1       String
+  imageEventPath2       String
+  imageEventPath3       String
+  imageEventPath4       String
+  imageBannerPath       String
+  imageFlyerPath        String
+  reservationRequired   String?
+  ticketRequired        String?
+  payAtDoor             String?
+  recurringEvent        String?
+  twentyOnePlus         String?
+  eighteenPlus          String?
+  eventTheme            String?
+  specialGuest          String?
+  eventDiscountCoupon   String?
+  eventVendors          String?
+  eventAnimalFriendly   String?
+  eventRaffle           String?
+  photoOpLocation       String?
+  kidFriendly           String?
+  handicapAccessible    String?
+  eventPerformance      String?
+  eventFood             String?
+  eventSmokeFree        String?
+  eventSmokeAreas       String?
+  eventPayment          String?
+  patronParticipation   String?
+  eventLocation         String?
+
+
+  createdAt             DateTime      @default(now())
+  updateAt              DateTime      @updatedAt
+}

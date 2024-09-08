@@ -1,0 +1,94 @@
+.SearchFilterContainer{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 96%;
+    background: #FFFFFF;
+    background: -moz-linear-gradient(left, #FFFFFF 0%, #717A81 50%, #FFFFFF 100%);
+    background: -webkit-linear-gradient(left, #FFFFFF 0%, #717A81 50%, #FFFFFF 100%);
+    background: linear-gradient(to right, #FFFFFF 0%, #717A81 50%, #FFFFFF 100%);
+}
+.SearchContainer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+}
+.SearchBar{
+    padding-left: 1rem;
+
+    width: 32em;
+    height: 3rem;
+
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    border-left:2px solid black;
+
+    font-family: Georgia, serif;
+    font-size: 17px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+}
+.SearchButton{
+    border-radius: 0px 37px 37px 0px;
+    width: 5em;
+    height: 3rem;
+    border: 2px solid black;
+    background-color: #ffffffaa;
+}
+.SearchSVG{
+    width: 4em;
+    height: 2rem;
+}
+.SearchButton:hover {
+    background: #838383;
+}
+
+.FilterContainer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    overflow-wrap:anywhere;
+}
+.FilterOptionButton{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding: 9px;
+
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+    box-shadow: 3px 4px 13px 5px rgba(0,0,0,0.59);
+
+    color: rgb(255, 255, 255);
+    
+    font-size: 15px;
+    line-height: 15px;
+    border-radius: 4px;
+    font-family: Georgia, serif;
+    font-size: 17px;
+    letter-spacing: 1.6px;
+    word-spacing: 2px;
+    background: #0f172a;
+    border: 7px outset #0f172a;
+    border: 2px solid #0f172a;
+    display: inline-block;
+}
+.FilterOptionButton:hover {
+    background: #082a41;
+    border: 7px outset #0f172a98;
+}
+.FilterOptionButton:active {
+    background: #0f172a;
+    border: 7px inset #0f172a;
+}

@@ -1,0 +1,158 @@
+.CardContainer{
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-top: 2rem;
+}
+.CardHeaderContainer{
+    padding-left: 5rem;
+    text-align: left;
+    padding-bottom: 2rem;
+}
+.CardHeaderText{
+    font-size: 2rem;
+}
+.SideBySide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.UpNDown{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.HeaderContainer{
+    background-color: lightgrey;
+    border-radius:  15px  15px 0px 0px;
+    height: 2rem;
+
+}
+.Info{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+.HoursContainer{
+    align-items: center;
+}
+.HeaderTextContainer{
+    font-size: 1rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+.DescriptionContainer{
+    outline:solid saddlebrown 2px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(211, 211, 211, 0.495);
+    border-radius: 15px;
+    height: 15rem;
+    overflow: auto;
+}
+.HoursContainer{
+    outline:solid saddlebrown 2px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(211, 211, 211, 0.495);
+    border-radius: 15px;
+    height: 14rem;
+    overflow: auto;
+}
+.Hours{
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(211, 211, 211, 0.495);
+    border-radius: 15px;
+    height: 10rem;
+    overflow: auto;
+}
+.LocationInfoContainer{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(211, 211, 211, 0.495);
+    border-radius: 15px;
+    height: 20rem;
+    overflow: auto;
+}
+.AddSpace{
+    margin-bottom: 1rem;
+}
+.MapContainer{
+    flex:content;
+}
+.Map{
+    width: 50rem;
+    outline: rgb(172, 116, 76) solid 2px;
+}
+.LocationInfo{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    background-color: lightgrey;
+    border-radius:  5px  5px 5px 5px;
+    height: fit-content;
+    width: fit-content;
+    outline: rgb(172, 116, 76) solid 2px;
+}
+.VenueInfoContainer{
+    outline:solid saddlebrown 2px;
+    margin-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(211, 211, 211, 0.495);
+    border-radius: 15px;
+    height: auto;
+    overflow: auto;
+}
+.ExternalLinksButton{
+    margin-top: 1vh ;
+    margin-bottom: 1vh ;
+    margin-right: 1rem;
+    
+}
+
+.CardContentContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 30rem;
+}
+.ImageSliderContainer{
+    size: 4rem;
+}
+.VenueInfoMenu{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+    outline:solid saddlebrown 2px;
+}
+.VenueItemContainer{
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    outline:solid rgb(48, 42, 38) 2px;
+    background-color: lightgrey;
+}
+.MenueText{
+    font-size: large;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}

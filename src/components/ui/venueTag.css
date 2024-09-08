@@ -1,0 +1,14 @@
+.VenueTagContainer{
+    height: fit-content;
+    width: fit-content;
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    outline: solid grey 2px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px;
+}
+.Unset{
+    all: unset;
+}

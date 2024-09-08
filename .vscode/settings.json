@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/8e84025c-2db2-4aa2-af03-2860b09d1cb5/resourceGroups/access-city-rg/providers/Microsoft.Web/sites/access-city-beta",
+    "appService.deploySubpath": "."
+}
